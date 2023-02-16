@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - A program that print the size of various computer types 
+ * main - A program that print the size of various computer types
  * Return: 0(Succes)
  */
 int main(void)
@@ -16,7 +16,6 @@ int main(void)
 	printf("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(c));
 	printf("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(d));
 	printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
-	
 	return (0);
 }
 

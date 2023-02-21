@@ -1,6 +1,5 @@
 #include "main.h"
 #include "6-abs.c"
-#include "0-putchar.c"
 /**
  * print_last_digit - prints last digit of a number
  * @n: the parameter

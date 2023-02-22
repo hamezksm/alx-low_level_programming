@@ -15,7 +15,7 @@ void times_table(void)
 		for (j = 0; j <= 9; j++)
 		{
 			pr = i * j;
-			if (strlen(pr) == 1)
+			if (strlen(pr + '0') == 1)
 				printf(pr + ",  ");
 			else
 				printf(pr + ", ");
